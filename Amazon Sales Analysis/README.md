@@ -1,23 +1,52 @@
-# Adidas Sales Analysis Dashboard
+# Amazon Sales and Amazon Prime Dashboards
 
 ## Project Overview
-This dashboard provides a comprehensive analysis of Adidas's sales performance. It is designed to help stakeholders understand sales trends, profitability, and market penetration across different regions and through various retailers.
+This repository hosts two Power BI dashboards developed to enhance the sales analysis capabilities of a thriving e-commerce business on Amazon. These dashboards are designed to provide a comprehensive view of product performance and the impact of Amazon Prime services on the business.
 
-## Key Performance Indicators (KPIs)
-- **Total Sales Analysis:** Tracks overall sales performance over time to identify trends.
-- **Profitability Analysis:** Evaluates the total profit across various dimensions.
-- **Sales Volume Analysis:** Examines total units sold to assess product demand.
-- **Pricing Strategy:** Analyzes the average price per unit to gauge pricing effectiveness.
-- **Margin Analysis:** Reviews average margins to understand overall profitability.
+## Problem Statement
+### Background
+Our client, a leading e-commerce business, seeks to leverage advanced analytics to understand and improve their sales strategies on Amazon, particularly focusing on product sales and Amazon Prime services.
 
-## Visualizations
-- **Total Sales by Month:** Area chart showing monthly sales distribution to highlight peak periods.
-- **Total Sales by State:** Filled map indicating geographical sales distribution across states.
-- **Total Sales by Region:** Donut chart representing the sales contribution by different regions.
-- **Total Sales by Product:** Bar chart analyzing sales distribution among Adidas products.
-- **Total Sales by Retailer:** Bar chart visualizing the contribution of different retailers to total sales.
+### Objective
+The project's goal is to create two distinct dashboards:
+1. **Amazon Products Sales Analysis** - To track and analyze the performance of products sold on Amazon.
+2. **Amazon Prime Performance Analysis** - To evaluate the impact of Amazon Prime on sales and customer engagement.
 
-## Here is the Screenshot of my Dashboard 
-![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/c6e07054-1093-4282-8453-cf7e5f5e0f3a)
+## Dashboards
+### 1. Amazon Products Sales Analysis
+#### Key Performance Indicators (KPIs)
+- **YTD Sales:** Monitor revenue performance year-to-date.
+- **QTD Sales:** Track sales figures quarterly.
+- **YTD Products Sold:** Analyze total products sold year-to-date.
+- **YTD Reviews:** Review customer feedback and satisfaction.
+
+#### Charts
+- **YTD Sales by Month:** Line chart displaying monthly sales trends.
+- **YTD Sales by Week:** Column chart showing weekly sales data.
+- **Sales by Product Category:** Text/Heat Map visualizing sales across different categories.
+- **Top 5 Products by YTD Sales:** Bar chart of top-performing products.
+- **Top 5 Products by YTD Reviews:** Bar chart of top-rated products by reviews.
+
+### 2. Amazon Prime Performance Analysis
+#### Key Performance Indicators (KPIs)
+- **Total Sales:** Overall sales generated from Amazon Prime.
+- **Total Number of Movies:** Count of movies available on Amazon Prime.
+- **Total Number of Reviews:** Total reviews for Amazon Prime movies.
+
+#### Charts
+- **Total Movie Counts by Release Year:** Line chart showing distribution of movies by release year.
+- **Total Sales by Movie Type:** Sales figures by different movie types.
+- **Top 5 Movies by Total Sales:** Bar chart of top-performing movies in sales.
+- **Top 5 Movies by Total Reviews:** Bar chart of movies with the highest reviews.
+
+## Challenges
+- **Data Integration:** Aggregating and integrating diverse data sources while ensuring consistency.
+- **Data Accuracy:** Maintaining accuracy and timeliness of the data for relevant insights.
+- **Data Privacy:** Ensuring compliance with data privacy regulations.
+- **Visualization:** Developing clear and interactive visualizations for effective communication.
+
+## Here are the Scrrenshots of my Dashboards
+![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/40360f08-31bc-48f4-835d-7d86276b8e56)
+![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/edb877fb-daf4-4154-b9c8-f455e9235326)
 
 
