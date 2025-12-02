@@ -1,52 +1,43 @@
-# Amazon Sales and Amazon Prime Dashboards
+# Bank Loan Analysis Dashboards
 
 ## Project Overview
-This repository hosts two Power BI dashboards developed to enhance the sales analysis capabilities of a thriving e-commerce business on Amazon. These dashboards are designed to provide a comprehensive view of product performance and the impact of Amazon Prime services on the business.
+This repository contains a series of Power BI dashboards designed for comprehensive analysis of bank loan data. These dashboards provide insights into loan applications, disbursement, repayments, and loan performance, helping stakeholders make informed decisions.
 
-## Problem Statement
-### Background
-Our client, a leading e-commerce business, seeks to leverage advanced analytics to understand and improve their sales strategies on Amazon, particularly focusing on product sales and Amazon Prime services.
+## Dashboards Description
+### Dashboard 1: Summary
+- **Purpose**: Offers a snapshot of the overall loan data including total applications, funded amounts, and loan categorization into good and bad loans.
+- **Key Features**:
+  - Total Loan Applications: Tracks the number of loan applications.
+  - Good vs. Bad Loans: Shows the percentage of loans classified as good or bad.
+  - Loan Status: Provides a detailed breakdown of loan statuses such as current, charged off, and fully paid.
 
-### Objective
-The project's goal is to create two distinct dashboards:
-1. **Amazon Products Sales Analysis** - To track and analyze the performance of products sold on Amazon.
-2. **Amazon Prime Performance Analysis** - To evaluate the impact of Amazon Prime on sales and customer engagement.
+### Dashboard 2: Overview
+- **Purpose**: Analyzes loans more granularly by various dimensions such as state, term, and purpose.
+- **Key Features**:
+  - Total Funded Amount by State: Visual representation of loans disbursed across different states.
+  - Loan Term Analysis: Distribution of loans across different loan terms.
+  - Total Funded Amount by Purpose: Breakdown of loans by their purposes.
 
-## Dashboards
-### 1. Amazon Products Sales Analysis
-#### Key Performance Indicators (KPIs)
-- **YTD Sales:** Monitor revenue performance year-to-date.
-- **QTD Sales:** Track sales figures quarterly.
-- **YTD Products Sold:** Analyze total products sold year-to-date.
-- **YTD Reviews:** Review customer feedback and satisfaction.
+### Dashboard 3: Details
+- **Purpose**: Offers a deep dive into individual loan records, providing extensive details about each loan.
+- **Key Features**:
+  - Detailed Loan Data Grid: Lists individual loans with details such as ID, purpose, home ownership, amount funded, and more.
+  - Filters for detailed analysis: Allows users to filter data by various criteria such as loan grade, state, and purpose.
 
-#### Charts
-- **YTD Sales by Month:** Line chart displaying monthly sales trends.
-- **YTD Sales by Week:** Column chart showing weekly sales data.
-- **Sales by Product Category:** Text/Heat Map visualizing sales across different categories.
-- **Top 5 Products by YTD Sales:** Bar chart of top-performing products.
-- **Top 5 Products by YTD Reviews:** Bar chart of top-rated products by reviews.
+## Technologies Used
+- **Power BI**: For creating dynamic and interactive visual dashboards.
+- **MS SQL Server**: Used for storing and querying the loan data.
+- **SQL Server Management Studio**: For database management and SQL queries.
 
-### 2. Amazon Prime Performance Analysis
-#### Key Performance Indicators (KPIs)
-- **Total Sales:** Overall sales generated from Amazon Prime.
-- **Total Number of Movies:** Count of movies available on Amazon Prime.
-- **Total Number of Reviews:** Total reviews for Amazon Prime movies.
 
-#### Charts
-- **Total Movie Counts by Release Year:** Line chart showing distribution of movies by release year.
-- **Total Sales by Movie Type:** Sales figures by different movie types.
-- **Top 5 Movies by Total Sales:** Bar chart of top-performing movies in sales.
-- **Top 5 Movies by Total Reviews:** Bar chart of movies with the highest reviews.
 
-## Challenges
-- **Data Integration:** Aggregating and integrating diverse data sources while ensuring consistency.
-- **Data Accuracy:** Maintaining accuracy and timeliness of the data for relevant insights.
-- **Data Privacy:** Ensuring compliance with data privacy regulations.
-- **Visualization:** Developing clear and interactive visualizations for effective communication.
+## Screenshots
+Here are some snapshots of the dashboards:
+![Summary Dashboard]![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/2c801259-615a-455f-bee2-844783ccbd05)
 
-## Here are the Scrrenshots of my Dashboards
-![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/40360f08-31bc-48f4-835d-7d86276b8e56)
-![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/edb877fb-daf4-4154-b9c8-f455e9235326)
+![Overview Dashboard]![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/424e5b0c-d7a1-4f5d-a3ff-350c9ac632d4)
+
+![Details Dashboard]![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/e3f0a873-f4ef-4d06-b50a-4c911d3e6521)
+
 
 
