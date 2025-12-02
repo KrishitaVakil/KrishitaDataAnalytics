@@ -1,47 +1,29 @@
-# Car Sales Dashboard
+# Ecommerce Sales Dashboard
 
-## Project Overview
-This Power BI dashboard is designed to provide comprehensive insights into the car sales performance of a dealership. It dynamically visualizes key performance indicators (KPIs) to aid in understanding sales trends, evaluating pricing strategies, and assessing car sales by various dimensions.
+## Overview
+This Power BI dashboard is designed to monitor and analyze the sales data of an ecommerce business. It focuses on various key performance indicators to provide insights into sales performance, profit margins, and customer purchasing behaviors.
+
+## Dashboard Features
+- **YTD Sales and Profit**: Tracks Year-to-Date sales and profit figures, including percentage changes compared to the previous year.
+- **Sales by Category**: Breaks down sales into categories such as Technology, Furniture, and Office Supplies, showing trends and year-over-year changes.
+- **Top 5 and Bottom 5 Products YTD Sales**: Identifies the best and worst performing products based on Year-to-Date sales.
+- **Sales by Region and State**: Displays sales distribution geographically, allowing for a regional analysis of market penetration.
+- **YTD Sales by Shipping Type**: Analyzes the performance of different shipping types contributing to customer satisfaction and logistics efficiency.
 
 ## Objectives
-The main objective of this dashboard is to:
-- Offer real-time insights into the dealership’s sales performance.
-- Enable data-driven decision-making through dynamic visualization of sales data.
-- Identify trends and opportunities for growth by analyzing sales over different periods and categories.
-
-## Key Features
-
-### Dashboard Visualizations
-1. **Sales Overview**
-   - **Year-to-Date (YTD) Total Sales**
-   - **Month-to-Date (MTD) Total Sales**
-   - **Year-over-Year (YOY) Growth in Total Sales**
-
-2. **Average Price Analysis**
-   - **YTD and MTD Average Price**
-   - **Comparison with Previous Year-to-Date (PTYD) Average Price**
-
-3. **Cars Sold Metrics**
-   - **Total YTD and MTD Cars Sold**
-   - **YOY Growth in Cars Sold**
-
-### Charts
-- **YTD Sales Weekly Trend**: Line chart showing weekly sales trends throughout the year.
-- **YTD Total Sales by Body Style**: Pie chart displaying sales distribution across different car body styles.
-- **YTD Total Sales by Color**: Pie chart showing sales contributions by car color.
-- **YTD Cars Sold by Dealer Region**: Map chart visualizing sales distribution across various dealer regions.
-- **Company-Wise Sales Trend**: Grid showing detailed sales figures by company.
-- **Detailed Sales Information Grid**: Comprehensive table listing each car sale with details such as model, body style, color, sales amount, dealer, and date.
+The dashboard aims to:
+- Provide real-time insights into the financial performance of the business.
+- Enable quick decision-making by visualizing sales trends and market dynamics.
+- Help in identifying successful products and areas needing improvement.
 
 ## Technologies Used
-- **Power BI**: For creating interactive and dynamic visualizations.
-- **Data Sources**: Sales data from the dealership’s operational databases.
-
+- **Power BI**: Utilized for creating interactive and comprehensive visual reports.
+- **Data Source Integration**: Seamlessly integrates with the business's data systems for real-time analytics.
+.
 
 ## Screenshots
-Below are screenshots of the various components of the dashboard:
-![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/1140a55f-e941-4453-a678-e08f6dfb3c87)
-![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/05c7671c-d6cc-4e33-b8dc-4bc82f06e4a8)
+Here are some visual highlights from the dashboard:
+![image](https://github.com/ayushshah17/Ayush_DataAnalytics/assets/68246527/ef766af1-67f7-4145-b111-1ae0be02cb5b)
 
 
 
